@@ -1,0 +1,69 @@
+.img_auth {
+  padding-left: 113px;
+  margin-top: 13px;
+}
+
+.heading__auth {
+  font-family: 'Ferry Black';
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 0.8px;
+  max-width: 800px;
+}
+
+.page__auth {
+  display: flex;
+  column-gap: 30px;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+
+.img__padlock {
+  content: '';
+  position: absolute;
+  top: -55px;
+  left: -55px;
+}
+
+.img__mobile {
+  display: none;
+}
+
+.block__form_auth {
+  position: relative;
+}
+
+@media (min-width: 375px) and (max-width: 500px) {
+  .page__auth {
+    flex-direction: column;
+  }
+
+  .img__desktop {
+    display: none;
+  }
+
+  .heading__auth {
+    font-size: 22px;
+    margin-bottom: 120px;
+  }
+
+  .img_auth {
+    padding-left: 0px;
+    margin-top: 34px;
+  }
+
+  .img__mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img__padlock {
+    top: -80px;
+    left: 120px;
+  }
+
+  .block__form_auth {
+    display: block;
+  }
+}

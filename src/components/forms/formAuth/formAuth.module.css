@@ -1,0 +1,116 @@
+.input__auth__err {
+  border-radius: 5px;
+  border: 1px solid #ff5959;
+  box-shadow: 0px 0px 20px 0px rgba(255, 89, 89, 0.2);
+}
+
+.input__auth {
+  border-radius: 5px;
+  border: 1px solid #c7c7c7;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  height: 43px;
+  padding: 12px 19px;
+}
+
+.input__auth:placeholder {
+  color: #000;
+  font-size: 16px;
+  letter-spacing: 0.16px;
+}
+
+.label__auth {
+  color: #949494;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.32px;
+  margin-bottom: 15px;
+}
+
+.button__auth {
+  border-radius: 5px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.44px;
+  padding: 16px 150px;
+  width: 100%;
+  display: block;
+}
+
+.enabledButton {
+  background: #5970ff;
+}
+
+.disabledButton {
+  background: rgba(89, 112, 255, 0.5);
+}
+
+.form__auth {
+  max-width: 429px;
+  padding: 25px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.button__registration {
+  color: #c7c7c7;
+  font-size: 16px;
+  letter-spacing: 0.32px;
+  border-bottom: 2px solid #c7c7c7;
+  padding: 8px 23px;
+}
+
+.button__entrance {
+  color: #029491;
+  font-size: 16px;
+  letter-spacing: 0.32px;
+  border-bottom: 2px solid #029491;
+  padding: 8px 50px;
+}
+
+.button__password {
+  color: #5970ff;
+  font-size: 14px;
+  letter-spacing: 0.28px;
+  text-decoration-line: underline;
+  margin: 15px auto;
+  display: block;
+}
+
+.auth__buttons {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 15px;
+  margin-bottom: 40px;
+}
+
+.text_icon {
+  color: #949494;
+  font-size: 16px;
+  letter-spacing: 0.32px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.text__error {
+  color: #ff5959;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.imgIcon {
+  margin-right: 10px;
+}
+
+@media (min-width: 375px) and (max-width: 500px) {
+  .button__registration {
+    font-size: 14px;
+  }
+}
